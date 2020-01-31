@@ -5,7 +5,7 @@
 NodeJS 10.x, x > 10
 NPM
 ```
-2. Fork this repository to your working station and open the project in your favourite TypeScript editor. I recommend that you use [Visual Studio Code](https://code.visualstudio.com/download) in order to start working on the project
+2. Fork this repository to your working station, clone this repository, and open the project in your favourite TypeScript editor. I recommend that you use [Visual Studio Code](https://code.visualstudio.com/download) in order to start working on the project
 3. Go to https://api.nasa.gov/ and get an api key. Note: for each API key there is a 1000 request per hour limit applied across all api.nasa.gov API requests, make sure not to exceed this when testing your code.
 4. Go to the Nasa-Test\src\nasa\keys file and insert your key as a string. Make sure changes on this file are **ABSOLUTELY NOT** commited to keep your api key private
 
@@ -52,7 +52,7 @@ npm run test
 
 * Keep code strongly typed with good coding practices, and use the await/async model when performing `Promises` within TypeScript
 * Document all of your functions with statement blocks using the @param and @returns annotations, and add 2 tests for every function written, one that expects to pass and one that expects to fail. Your tests should go in the Nasa-Test\tests\nasa\nasa-test.ts file
-* Once you are done, commit your solution to a branch in the GitHub repository with the branch name in the following format: student number-name (i.e.: 123456-first-last) and make a pull request. You have until Jan 31st, 6pm to submit your interview. 
+* Once you are done, commit your solution to a branch in your GitHub fork with the branch name in the following format: student number-name (i.e.: 123456-first-last) and make a pull request. You have until Jan 31st, 6pm to submit your interview. 
 
 
 # Bonus Front End Challenge
