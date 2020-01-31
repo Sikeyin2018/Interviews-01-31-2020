@@ -7,7 +7,7 @@ NPM
 ```
 2. Fork this repository to your working station and open the project in your favourite TypeScript editor. I recommend that you use [Visual Studio Code](https://code.visualstudio.com/download) in order to start working on the project
 3. Go to https://api.nasa.gov/ and get an api key. Note: for each API key there is a 1000 request per hour limit applied across all api.nasa.gov API requests, make sure not to exceed this when testing your code.
-4. Go to the Outreach-Interviews\candidate-questions\client-questions\src\nasa\keys file and insert your key as a string. Make sure changes on this file are **ABSOLUTELY NOT** commited to keep your api key private
+4. Go to the src\nasa\keys file and insert your key as a string. Make sure changes on this file are **ABSOLUTELY NOT** commited to keep your api key private
 
 # Programming Question
 - Under the Nasa-Test\src\nasa folder of the project, you will see that there is a class called DailyImage that allows users to get the Astronomy Picture Of The Day info from the Nasa api. 
