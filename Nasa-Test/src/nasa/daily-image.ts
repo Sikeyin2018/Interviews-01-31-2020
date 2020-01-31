@@ -46,6 +46,31 @@ export class DailyImage {
             console.log(e);
         }
     }
+	
+	public async  getImageForDates(date: string): Promise<IDailyImage>{
+        try {
+           /*
+				I am not familiar with JavaScript, so I only represent my own idea
+				
+				If the request contains multiple dates paramemter, in java, I will use
+				String value=request.getparameter("key") to get paramemter and put them 
+				into an array. Then I will use a for loop to count the number of paramemter.
+				Since date is moving forward, as long as I figure the last parameter's moment(),
+				I can modify the if condition to set dateAsTheLastMoment.isAfter(moment()) as
+				invalid. Then I will make a map to collect the image parse by using a for loop 
+				to scan the different date in array). In index.ts, I will write an end point with
+				the app.get( '/timeline') to receive the request.
+		   */
+            };
+        } catch (e) {
+            return {
+                error: `There was an error retrieving the photo for this date.
+                Make sure you have you api key properly setup`
+            };
+            // tslint:disable-next-line: no-console
+            console.log(e);
+        }
+    }
 
     /**
      * Makes the get request to the nasa api
